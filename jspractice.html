@@ -1,0 +1,213 @@
+<!doctype.html>
+    <html>
+
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <script>
+            //write a program to per form input/output of all basic datatypes
+            //nuber data type
+
+            var x = 25;
+            var y = 30.5;
+            var z = x + y;
+            console.log(z);
+
+            //string datatype
+
+            var a = "phani";
+            var b = "madineni";
+            var c = a + b;
+            console.log(c);
+            document.write("hello" + c);
+
+            //bollean data type
+
+            var phani = true;
+            var madineni = false;
+            console.log(phani);
+
+            //regular expresson
+
+            var x = 66;
+            var y = 57;
+            var z = x + y;
+            console.log(z);
+
+            //array
+
+
+            var emp = ["phani", "karthik", "gokul", "tabish", "senthil"];
+            document.write(emp);
+            for (i = 0; i < emp.length; i++) {
+                document.write(emp[i] + "<br>");
+            }
+
+
+            var i;
+            var emp = new Array();
+            emp[0] = "phani";
+            emp[1] = "karthik";
+            emp[2] = "gokul";
+
+            for (i = 0; i < emp.length; i++) {
+                document.write(emp[i] + "<br>");
+            }
+
+
+            var emp = new Array("phani", "madineni", "chhh");
+            for (i = 0; i < emp.length; i++) {
+                document.write(emp[i] + "<br>");
+            }
+
+
+            //arithmetic operations
+            var x = 10;
+            var y = 20;
+            var z = x + y;
+            var p = x * y;
+            var q = x / y;
+            var r = x % y;
+            x++;
+            y--;
+            console.log(y);
+
+            //    write a programe to enter length and breadth of a rectangle and find its perimeter &area
+
+            var width = 10;
+            var length = 15;
+            var area = length * width;
+            console.log(area);
+            var perimeter = 2 * (length + width);
+            console.log(perimeter);
+
+            //find diameter,circumference and area.
+
+            var radius = 10;
+            var diameter = 2 * radius;
+            var circumference = 2 * radius * 3.14;//pi means 3.14
+            var area = 3.14 * radius * radius;
+            document.write(diameter);
+            document.write(circumference);
+            document.write(area);
+
+            //find meter & kilometer
+
+            var length = 500;
+            var meter = length / 100;
+            var kilometer = length / 100000;
+            console.log(kimeter);
+
+            // find fahrenheit
+
+            var celsius = 3;
+            var fahrenheit = celsius * (9 / 5) + 32;
+            document.write(fahrenheit);
+
+            // find celsius
+
+            var fahrenheit = 3;
+            var celsius = 5 / 9 * (fahrenheit - 32);
+            document.write(celsius);
+
+            // convert days into years,weaks and months
+
+            var days = 1000;
+            var year = days / 365;
+            var weeks = days / 7;
+            var months = days / 30;
+            console.log(year);
+            console.log(weeks);
+            console.log(months);
+
+            //find power of any number X^y
+
+            var x = 10;
+            var y = 2;
+            var z = x ** y;
+            console.log(z);
+
+            //enter any no caluculate squareroot
+
+            var x = 10;
+            var y = Math.sqrt(x);
+            console.log(y);
+
+            //enter two angles of a triangles and find the third angle
+
+            var ang1 = 60;
+            var ang2 = 80;
+            var ang3 = 180 - (a + b);
+            console.log(ang3);
+
+            //write a program to enter base and height of a triangle and find its area
+
+            var base = 30;
+            var height = 35;
+            var area = (base * height) / 2;
+            console.log(area);
+
+            //write a program to caluculate area of an equilateral triangle
+
+            var x = 20;
+            var triangle = ((Math.sqrt(3) / 4) * (x * x));
+            console.log(triangle);
+
+            //write program enter 5 sub marks find total,avaerage,percentage
+
+            var maths = 99;
+            var computer = 80;
+            var science = 60;
+            var java = 39;
+            var angular = 45;
+            var total = (maths + computer + science + java + angular);
+            var average = (maths + computer + science + java + angular) / 2;
+            var percentage = (maths + computer + science + java + angular) / 500;
+            console.log(total);
+            console.log(average);
+            console.log(percentage);
+
+
+
+            //write program enter 5 sub marks find total,avaerage,percentage
+
+            var maths = 72;
+            var eng = 66;
+            var science = 84;
+            var soc = 79;
+            var telugu = 65;
+            var hindi = 56;
+            var total = (maths + eng + science + soc + telugu + hindi);
+            var average = (maths + eng + science + soc + telugu + hindi) / 2;
+            var percentage = (maths + eng + science + soc + telugu + hindi) / 600;
+            console.log(total, average, percentage);
+
+
+            //simple interest
+
+            var p = 10000;
+            var t = 2;
+            var r = 2;
+            var simpleinterest = p * r * t;
+            console.log(simpleinterest);
+
+            //compound interest
+
+            var p = 1000;
+            var t = 2;
+            var r = 2;
+            var n = 100;
+            var compoundinterest = p * (1 + r / n) ** (n * t);
+            console.log(compoundinterest);
+
+
+
+
+
+
+        </script>
+    </body>
+
+    </html>
